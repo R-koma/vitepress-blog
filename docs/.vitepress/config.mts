@@ -5,7 +5,7 @@ export default defineConfig({
   lang: "ja",
   title: "Blog",
   description: "portfolio-blog",
-  base: "/R-koma/vitepress-blog/",
+  base: "/vitepress-blog/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
