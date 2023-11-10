@@ -11,10 +11,7 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-    // nav: [
-    //   { text: "Home", link: "/" },
-    // { text: "Examples", link: "/markdown-examples" },
-    // ],
+    nav: [{ text: "Home", link: "https://portfolio-site-indol.vercel.app/" }],
 
     sidebar: [
       {
