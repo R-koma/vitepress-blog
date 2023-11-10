@@ -16,6 +16,6 @@ import { data as posts } from "../.vitepress/theme/posts.data.ts"
 
 <ul>
   <li v-for="post of posts">
-    <a :href="'/vitepress-blog' + post.url" class="home-posts-article-title">{{post.frontmatter.title}}</a>
+    <a :href="post.url" class="home-posts-article-title">{{post.frontmatter.title}}</a>
   </li>
 </ul>

@@ -15,10 +15,10 @@ import { data as posts } from "./.vitepress/theme/posts.data.ts"
 
 <article v-for="post of posts" class="home-posts-article">
   <p>
-    <a :href="'/vitepress-blog' + post.url" class="home-posts-article-title">{{post.frontmatter.title}}</a>
+    <a :href="post.url" class="home-posts-article-title">{{post.frontmatter.title}}</a>
   </p>
   <p>
-    <a :href="'/vitepress-blog' + post.url">続きを読む</a>
+    <a :href="post.url">続きを読む</a>
   </p>
 </article>
 
